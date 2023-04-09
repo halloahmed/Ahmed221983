@@ -73,10 +73,10 @@ namespace Abu83.API.Controllers
             // Domain To DTO 
             var walkDTO = new Models.DTO.Walk
             {
-                Id = walkdomain.Id,
-                Name = walkdomain.Name,
-                Length = walkdomain.Length,
-                RegionId = walkdomain.RegionId,
+                Id               = walkdomain.Id,
+                Name             = walkdomain.Name,
+                Length           = walkdomain.Length,
+                RegionId         = walkdomain.RegionId,
                 WalkDifficultyId = walkdomain.WalkDifficultyId
             };
             // back to Client 
